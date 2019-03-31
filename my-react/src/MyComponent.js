@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class MyComponent extends Component {
     static defaultProps = {
@@ -11,6 +12,10 @@ class MyComponent extends Component {
             </div>
         );
     }
+}
+
+MyComponent.propTypes = {
+    name: PropTypes.string
 }
 
 export default MyComponent;
