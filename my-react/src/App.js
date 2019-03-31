@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import MyComponent from './MyComponent';
 
 
 class App extends Component {
   render() {
+    const text = '당신은 어썸한가요?';
     return (
-        <MyComponent />
-    );
+      <div>
+          <h1>리엑트 튜토리얼</h1>
+          <h2>{text}</h2>
+          </div>  
+        );
   }
 }
 
