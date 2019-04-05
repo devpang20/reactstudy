@@ -1,43 +1,44 @@
 @import '../setting/open.scss';
 
+
 .input-comp {
-  border-bottom: 1px solid $oc-gray-9;
-  display: flex;
-  padding: 1rem;
-
-  input {
-    flex: 1;
-    font-size: 1.1rem;
-    outline: none;
-    border: none;
-    background: transparent;
-    border-bottom: 1px solid $oc-violet-4;
-
-    &:focus {
-      border-bottom: 2px solid $oc-red-6;
-    }
-  }
-
-  .add-button {
-    width: 5rem;
-    height: 2rem;
-    margin-left: 1rem;
-    border: 1px solid $oc-violet-4;
-    font-size: 1.2rem;
+    border-bottom: 1px solid $oc-gray-9;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: $oc-violet-4;
-    color: $oc-gray-0;
-    box-shadow: 0 3px 3px $oc-violet-9;
-    cursor: pointer;
-
-    &:hover {
-      box-shadow: 0 4px 6px $oc-violet-9;
+    padding: 1rem;
+  
+    input {
+      flex: 1;
+      font-size: 1.1rem;
+      outline: none;
+      border: none;
+      background: transparent;
+      border-bottom: 1px solid $oc-violet-4;
+  
+      &:focus {
+        border-bottom: 2px solid $oc-red-6;
+      }
     }
-
-    &:active {
-      background: $oc-yellow-9;
+  
+    .add-button {
+      width: 5rem;
+      height: 2rem;
+      margin-left: 1rem;
+      border: 1px solid $oc-violet-4;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $oc-violet-4;
+      color: $oc-gray-0;
+      box-shadow: 0 3px 3px $oc-violet-9;
+      cursor: pointer;
+  
+      &:hover {
+        box-shadow: 0 4px 6px $oc-violet-9;
+      }
+  
+      &:active {
+        background: $oc-yellow-9;
+      }
     }
   }
-}
