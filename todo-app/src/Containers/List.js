@@ -4,12 +4,12 @@ import Item from '../Components/Item';
 
 class List extends Component {
     render() {
+        const { todos } = this.props;
+        const todoList = todos.map(
+            todo => (<Item key ={todo.id} doit={todo.doit}>{todo.article}</Item>)
+        );
         return (
-            <>
-                <Item>테스트1</Item>
-                <Item>테스트2</Item>  
-                <Item>테스트3</Item>
-            </>
+            <div>{ todoList }</div>
         );
     }
 }
