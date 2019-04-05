@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import PageContainer from '../Containers';
 
 class App extends Component {
   render() {
     return (
-      <>
-        Todo App
-      </>
-        );
+      <PageContainer>
+        리스트가 들어 갈 자리
+      </PageContainer>
+      );
   }
 }
 
