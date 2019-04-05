@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import styles from './Input.scss';
+import styles from '../setting/Input.scss';
 import classNames from 'classnames/bind';
 
 
